@@ -1,0 +1,7 @@
+127.0.0.1|14:18:48|pageload|index.html
+127.0.0.1|14:35:57|pageload|opvang.php
+127.0.0.1|14:35:57|inlog|casdik
+127.0.0.1|14:36:05|pageload|opvang.php
+127.0.0.1|14:36:05|inlog|
+127.0.0.1|14:37:10|pageload|opvang.php
+127.0.0.1|14:37:10|inlog|tests
