@@ -11,6 +11,6 @@ body{
     padding-top: 10px;
     padding-bottom: 5px;
 }
-tr{
-    border: 1px;
+table, th, td {
+    border: 1px solid black;
 }
