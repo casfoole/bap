@@ -1,0 +1,16 @@
+body,html,div{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: wheat;
+}
+.red{
+    background-color: #5F021F;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+table, th, td {
+    border: 1px solid black;
+}
