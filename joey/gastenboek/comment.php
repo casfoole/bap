@@ -50,11 +50,11 @@ if (isset($_POST['submit'])){
         echo "<br><a href='index.php'>Ga naar gastenlijst.</a>";
         echo "<br><a href='comment.php'>return</a>";
 
-//    }else{
-//        echo "Sorry maar uw heeft niet alle vakken ingevuld,<br>
-//          probeer het alstublieft opnieuw.";
+    }else{
+        echo "Sorry maar uw heeft niet alle vakken ingevuld,<br>
+          probeer het alstublieft opnieuw.";
 
-//    }
+
 }
 ?>
 
