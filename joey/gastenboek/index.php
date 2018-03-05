@@ -27,14 +27,12 @@
         $patterns[2] = '/fuck/i';
         $patterns[3] = '/kanker/i';
         $patterns[4] = '/faggot/i';
-        $patterns[5] = '/pussy/i';
         $replacements = array();
         $replacements[0] = '****';
         $replacements[1] = '****';
         $replacements[2] = '****';
         $replacements[3] = '******';
         $replacements[4] = '******';
-        $replacements[5] = '*****';
         if ($result->num_rows > 0) {
         echo "<table border='1'><tr><th>naam</th><th>comment</th></tr>";
         while($row = $result->fetch_assoc()) {

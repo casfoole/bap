@@ -119,7 +119,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/bewijzenmap/2.1/bootcamp" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
@@ -206,14 +206,22 @@
       <workItem from="1509620407728" duration="1198000" />
       <workItem from="1509694881456" duration="24000" />
       <workItem from="1510306988433" duration="507000" />
+<<<<<<< HEAD
       <workItem from="1510567030991" duration="3448000" />
       <workItem from="1511177216706" duration="667000" />
       <workItem from="1511187148424" duration="711000" />
+=======
+      <workItem from="1510567030991" duration="2987000" />
+>>>>>>> parent of 387398b... 15-11-17
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="21110000" />
+=======
+    <option name="totallyTimeSpent" value="19271000" />
+>>>>>>> parent of 387398b... 15-11-17
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
