@@ -13,6 +13,6 @@
         <input type="submit">
     </form><br>
 
-       <textarea placeholder="Plaats text hier." rows="10" cols="45" form="berichtform"></textarea>
+       <textarea placeholder="Plaats text hier." rows="10" cols="45" form="berichtform" name="berichtText"></textarea>
 </body>
 </html>

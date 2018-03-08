@@ -1,7 +1,7 @@
 <?php
-$berichtTitel = $_POST['beichtTitel'];
-$berichtText = $_POST['beichtText'];
-$from = "CoolsteNieuwsBrief@nieuwsbrief.nl";
+$berichtTitel = $_POST['berichtTitel'];
+$berichtText = $_POST['berichtText'];
+$from = "KoopEenFiets@eenfiets.nl";
 
         $dbc = mysqli_connect('localhost','22937_cas','22937','22937_carl');
         $query = "SELECT * FROM nieuwsbrief";
@@ -9,7 +9,7 @@ $from = "CoolsteNieuwsBrief@nieuwsbrief.nl";
 
         while($row = mysqli_fetch_array($result)){
             $onvangers = $row['mailadres'];
-            mail($onvangers, $berichtTitel, $berichtText,'from' . $from);
+            mail($onvangers, $berichtTitel, $berichtText,'from ' . $from);
             echo "emails verzonden naar " . $onvangers . ".<br>";
 }
 ?>
