@@ -28,7 +28,7 @@
         echo '<tr>';
         echo "<td>$id</td><td>$voornaam</td><td>$tussenvoegsel</td><td>$achternaam</td><td>$mailadres</td>";
         echo '<td><a href="delete.php?id=' . $id . '">DELETE</a> </td>';
-        echo '<td><a href="edit.php">EDIT</a> </td>';
+        echo '<td><a href="edit.php?id=' . $id . '&voornaam=' . $voornaam . '&tussenvoegsel=' . $tussenvoegsel . '&achternaam=' . $achternaam . '&mailadres=' . $mailadres . '">EDIT</a> </td>';
         echo '</tr>';
     }
 
